@@ -99,6 +99,15 @@ auth: {
     }
   }
 }
+---Nuxt auth version 4.9.1 or less---
+auth: {
+  strategies: {
+    customStrategy: {
+      _scheme: '~/schemes/customScheme',
+      /* ... */
+    }
+  }
+}
 ```
 
 That's it! Now you can log in using your new strategy.
